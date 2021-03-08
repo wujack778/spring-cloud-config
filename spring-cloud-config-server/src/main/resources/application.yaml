@@ -8,8 +8,18 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:wujack778/spring-cloud-config.git
+          uri: https://github.com/wujack778/spring-cloud-config.git
           search-paths:
             - spring-cloud-config
+          username: wujack778
+          password: Wgk123**
+      #          clone-on-start: true
       label: master
+
+
+#      /{application}/{profile}[/{label}]
+        #/{application}-{profile}.yml
+        #/{label}/{application}-{profile}.yml
+      #/{application}-{profile}.properties
+      #/{label}/{application}-{profile}.properties
 
